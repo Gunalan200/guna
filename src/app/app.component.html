@@ -1,0 +1,8 @@
+<button (click)="method()">Clickme</button>
+<ng-container *ngIf="isLogged;then Yes ; else No"></ng-container>
+<ng-template #Yes>
+  Yes!!
+</ng-template>
+<ng-template #No>
+  No!!!
+</ng-template>
